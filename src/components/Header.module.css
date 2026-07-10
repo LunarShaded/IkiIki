@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+}
+
+.headerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.navSide nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+.navSide nav ul li{
+    list-style: none;
+}
+
+.navSide nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
