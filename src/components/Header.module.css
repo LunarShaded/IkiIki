@@ -7,7 +7,17 @@
 }
 
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(15px);
+
+    border-bottom: 1px solid rgba(255,255,255,.15);
+
+    z-index: 1000;
 }
 
 .headerBox{
@@ -15,11 +25,12 @@
     justify-content: center;
     align-items: center;
     padding: 25px;
+    background: transparent;
 }
 
 .navSide nav ul{
     display: flex;
-    gap: 50px;
+    gap: 55px;
 }
 
 .navSide nav ul li{
@@ -28,6 +39,12 @@
 
 .navSide nav ul li a{
     text-decoration: none;
-    color: black;
-    font-size: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navSide nav ul li a:hover{
+    color: #F9A825;
 }
